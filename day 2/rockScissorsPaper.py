@@ -16,9 +16,24 @@ def computerChoice():
 def rockScissorsPaper():
   #Code Here
 
-  #print random computer response
-  print(whatIsIt(computerChoice()))
+  choice = input ("Choose rock or scissors or paper:")
+  print(Choice)
 
-rockScissorsPaper()
+# if statement that checks if user's chouse is correct
+
+  if choice == "Rock" or  choice == "Scissors" or choice == "Paper":
+    print("Your response is valid")
+  else:
+    print("Your response is not valid")
+#computer choice
+  computer_choice = whatIsIt(computer_choice)
+  #print tie if user and computer response is the same
+
+  computer_response = whatIsIt(computer_response)
+
+  #print random computer response
+  #print(whatIsIt(computerChoice()))
+
+
 
 
